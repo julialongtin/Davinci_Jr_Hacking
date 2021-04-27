@@ -6,6 +6,7 @@ http://www.soliforum.com/topic/13769/davinci-jr-repetier-port/
 # Main Components:
 1. AT SAM4E8E: supported by klipper
 2. lpc1115: not supported by klipper
+ * REPORTED: Be careful if power on after wipe the FW, the extruder is on and heating without any control, you better disconnect it
 
 # Factory Reset:
 There are three pads for erase and reset switches on the motherboard.
@@ -171,6 +172,19 @@ E1 Motor:
 |enable|3|78|
 |direction|44|74|
 
+# Screen:
+```
+16x4 winstar screen
+```
+
+
+# Connectors:
+
+## J11
+ * 51 pin
+ * Manufacturer: Molex
+ * Manufacturer Part No: 503908-5100
+ * mouser link: https://www.mouser.de/ProductDetail/Molex/503908-5100?qs=%2Fha2pyFaduhUZ0D3%252Bx9QZ%2F9yiKVPFvryM3AFBkGfjdB5lJl2zWGmyA==
 
 Screen:
 ```
